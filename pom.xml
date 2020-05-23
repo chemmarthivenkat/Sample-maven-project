@@ -30,18 +30,6 @@
   <build>
     <plugins>
 	    <plugin>
-         <groupId>org.codehaus.mojo</groupId>
-         <artifactId>exec-maven-plugin</artifactId>
-         <version>1.6.0</version> 
-         <configuration>
-          <executable>git</executable>
-          <arguments>
-            <argument>config</argument>
-			<argument>--list</argument>
-          </arguments>
-         </configuration>
-	</plugin>
-	   <plugin>
  		<groupId>org.jacoco</groupId>
  		<artifactId>jacoco-maven-plugin</artifactId>
  		<version>0.5.5.201112152213</version>
